@@ -10,7 +10,6 @@ private:
 	int pages;
 
 public:
-	// Конструктор за замовчуванням
 	Book()
 	{
 		author = "Unknown";
@@ -63,7 +62,7 @@ public:
 };
 void printBooksByAuthor(const Book books[], int size, const string& author)
 {
-	cout << "\n=== Books by author: \"" << author << "\" ===" << endl;
+	cout << "\nBooks by author: \"" << author << "\"" << endl;
 	bool found = false;
 	for (int i = 0; i < size; i++)
 	{
@@ -80,7 +79,7 @@ void printBooksByAuthor(const Book books[], int size, const string& author)
 }
 void printBooksByPublisher(const Book books[], int size, const string& publisher)
 {
-	cout << "\n=== Books by publisher: \"" << publisher << "\" ===" << endl;
+	cout << "\nBooks by publisher: \"" << publisher << "\"" << endl;
 	bool found = false;
 	for (int i = 0; i < size; i++)
 	{
@@ -97,7 +96,7 @@ void printBooksByPublisher(const Book books[], int size, const string& publisher
 }
 void printBooksAfterYear(const Book books[], int size, int year)
 {
-	cout << "\n=== Books published after " << year << " year ===" << endl;
+	cout << "\nBooks published after " << year << " year" << endl;
 	bool found = false;
 	for (int i = 0; i < size; i++)
 	{
