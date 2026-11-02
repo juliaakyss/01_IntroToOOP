@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06_OverloadOperators", "06_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06_OperatorOverloading_Hw", "06_OperatorOverloading_Hw\06_OperatorOverloading_Hw.vcxproj", "{F52ED21A-0B5A-4576-8DE5-4E292721367F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10_Stack", "10_Stack\10_Stack.vcxproj", "{5498703E-70DB-4114-86BF-23D28C12E2A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{F52ED21A-0B5A-4576-8DE5-4E292721367F}.Release|x64.Build.0 = Release|x64
 		{F52ED21A-0B5A-4576-8DE5-4E292721367F}.Release|x86.ActiveCfg = Release|Win32
 		{F52ED21A-0B5A-4576-8DE5-4E292721367F}.Release|x86.Build.0 = Release|Win32
+		{5498703E-70DB-4114-86BF-23D28C12E2A2}.Debug|x64.ActiveCfg = Debug|x64
+		{5498703E-70DB-4114-86BF-23D28C12E2A2}.Debug|x64.Build.0 = Debug|x64
+		{5498703E-70DB-4114-86BF-23D28C12E2A2}.Debug|x86.ActiveCfg = Debug|Win32
+		{5498703E-70DB-4114-86BF-23D28C12E2A2}.Debug|x86.Build.0 = Debug|Win32
+		{5498703E-70DB-4114-86BF-23D28C12E2A2}.Release|x64.ActiveCfg = Release|x64
+		{5498703E-70DB-4114-86BF-23D28C12E2A2}.Release|x64.Build.0 = Release|x64
+		{5498703E-70DB-4114-86BF-23D28C12E2A2}.Release|x86.ActiveCfg = Release|Win32
+		{5498703E-70DB-4114-86BF-23D28C12E2A2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
